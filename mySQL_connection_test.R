@@ -8,7 +8,7 @@ x <- 5;
 
 library(help = RMySQL);
 
-cramdb <- dbConnect(RMySQL::MySQL(), dbname = "cram", username="root", localhostpassword="nopass")
+cramdb <- dbConnect(RMySQL::MySQL(), dbname = "cram", username="root", password="nopass")
 cramdb;
 
 dbListConnections();

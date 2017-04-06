@@ -1,4 +1,6 @@
 # https://cran.r-project.org/web/packages/sodium/vignettes/intro.html
+# Expert-advice about THE BEST way to secure the passwords in your database.
+# https://crackstation.net/hashing-security.htm
 
 install.packages("sodium")
 library("sodium")
